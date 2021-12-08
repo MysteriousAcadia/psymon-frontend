@@ -11,7 +11,7 @@ body {
     }
 
     to {
-        top: 50%;
+        top: 40%;
         opacity: 1;
     }
 
@@ -54,32 +54,42 @@ body {
     margin: 24px;
 }
 
+.logo-wrap {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
 .wrapper {
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+    top: 40%;
+    transform: translate(-50%, -40%);
+    -webkit-transform: translate(-50%, -40%);
     animation: fadeIn 1000ms ease;
     -webkit-animation: fadeIn 1000ms ease;
 
 }
 
-h1 {
+.wrapper img {
+    width: 290px;
+}
+
+.h1 {
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 0;
-    line-height: 1;
+    margin-bottom: 16px;
+    /* line-height: 1; */
     font-weight: 700;
 }
 
 .dot {
-    color: #4FEBFE;
+    color: #EF9429;
 }
 
 p {
     text-align: center;
-    margin: 18px;
     font-family: 'Muli', sans-serif;
     font-weight: normal;
 
@@ -87,6 +97,7 @@ p {
 
 .icons {
     text-align: center;
+    font-size: 16px;
 
 }
 
